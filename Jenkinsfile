@@ -57,7 +57,7 @@ pipeline {
                 echo 'Vérification de l’application...'
                 sh '''
                 sleep 30
-                curl -f http://localhost:$APP_PORT || exit 1
+                docker exec next-app wget -qO- http://localhost:3000 || exit 1
                 '''
             }
         }

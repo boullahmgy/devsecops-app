@@ -56,7 +56,7 @@ pipeline {
             steps {
                 echo 'Vérification de l’application...'
                 sh '''
-                sleep 10
+                sleep 30
                 curl -f http://localhost:$APP_PORT || exit 1
                 '''
             }

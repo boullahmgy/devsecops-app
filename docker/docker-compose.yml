@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+
+  devsecops-app:
+
+    build:
+      context: ..
+
+    container_name: devsecops-platform
+
+    ports:
+      - "8080:8080"
+
+    restart: always
+
+    environment:
+      - ENV=production

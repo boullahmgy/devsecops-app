@@ -165,9 +165,9 @@ Follow the installation instructions provided in the documentation.
 
 # 📸 Screenshots
 
-Add project screenshots here:
+## Architecture
 
-- Architecture diagram
+![Architecture](screenshots/architecture.png)
 - Wazuh dashboard
 - Suricata alerts
 - Security monitoring results

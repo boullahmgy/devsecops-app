@@ -1,0 +1,44 @@
+name: DevSecOps Security Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+
+jobs:
+
+  security-scan:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.x"
+
+
+    - name: Install Security Tools
+      run: |
+        pip install bandit
+        pip install safety
+
+
+    - name: Static Code Analysis (SAST)
+      run: |
+        bandit -r .
+
+
+    - name: Dependency Vulnerability Scan
+      run: |
+        safety check

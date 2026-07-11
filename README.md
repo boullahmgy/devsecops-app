@@ -168,10 +168,33 @@ Follow the installation instructions provided in the documentation.
 ## Architecture
 
 ![Architecture](screenshots/architecture.png)
-- Wazuh dashboard
-- Suricata alerts
-- Security monitoring results
-- Virtual environment
+
+## Network-architecture
+
+![Network-architecture](screenshots/Network-architecture.png)
+
+## Wazuh Dashboard
+
+![Wazuh](screenshots/Wazuh-Dashboard.png)
+
+## DevSecOps-app-Dashboard
+
+![DevSecOps](screenshots/DevSecOps-app-Dashboard.png)
+![DevSecOps](screenshots/DevSecOps-app-Dashboard-2.png)
+![DevSecOps](screenshots/DevSecOps-app-Dashboard-3.png)
+
+## Telegram-Alerts
+
+![Telegram](screenshots/Telegramnot.png)
+
+## Suricata-alerts
+
+![suricata](screenshots/suricata-alerts.png)
+
+## Virtual-Machine
+
+![Virtual](screenshots/VirtualMachine.png)
+
 
 ---
 

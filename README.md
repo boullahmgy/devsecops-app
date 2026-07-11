@@ -1,5 +1,8 @@
 # 🛡️ DevSecOps Cybersecurity Platform
-
+![Security Pipeline](https://img.shields.io/badge/security-automated-green)
+![Docker](https://img.shields.io/badge/docker-enabled-blue)
+![DevSecOps](https://img.shields.io/badge/DevSecOps-platform-orange)
+![Linux](https://img.shields.io/badge/Linux-supported-yellow)
 <h3 align="center">
 Design and Deployment of a DevSecOps Platform for Cyber Threat Detection, Prevention, and Monitoring
 </h3>

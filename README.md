@@ -208,6 +208,7 @@ Follow the installation instructions provided in the documentation.
 - Advanced threat intelligence integration.
 - Cloud security monitoring.
 - CI/CD security automation.
+- Docker build validation and optimization.
 
 ---
 

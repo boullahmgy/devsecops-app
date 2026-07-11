@@ -1,36 +1,202 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ DevSecOps Cybersecurity Platform
 
-## Getting Started
+<h3 align="center">
+Design and Deployment of a DevSecOps Platform for Cyber Threat Detection, Prevention, and Monitoring
+</h3>
 
-First, run the development server:
+<p align="center">
+A cybersecurity platform designed to improve threat detection, security monitoring, and incident analysis using DevSecOps practices.
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 📌 Overview
+
+The **DevSecOps Cybersecurity Platform** is a security project focused on designing and deploying a monitoring solution capable of detecting, analyzing, and improving the response to cyber threats.
+
+The platform integrates security monitoring tools and defensive mechanisms to provide visibility into system events, network activities, and potential attacks.
+
+The main objective is to combine **Development, Security, and Operations (DevSecOps)** principles to build a more efficient cybersecurity workflow.
+
+---
+
+# 🎯 Objectives
+
+- Build a centralized cybersecurity monitoring platform.
+- Detect suspicious activities and cyber threats.
+- Analyze security events and logs.
+- Improve incident detection and response capabilities.
+- Apply DevSecOps methodologies in cybersecurity operations.
+
+---
+
+# 🏗️ Architecture
+
+The platform is composed of several security components:
+
+```
+                 Attack Simulation
+                        |
+                        ▼
+                  Kali Linux
+                        |
+                        ▼
+              Network Traffic Analysis
+                        |
+                        ▼
+                 Suricata IDS
+                        |
+                        ▼
+                  Wazuh SIEM
+                        |
+                        ▼
+             Security Monitoring & Analysis
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🛠️ Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Cybersecurity
 
-## Learn More
+- Wazuh SIEM
+- Suricata IDS
+- Kali Linux
+- Nmap
+- Wireshark
+- Hydra
 
-To learn more about Next.js, take a look at the following resources:
+## Infrastructure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Linux
+- Windows
+- VirtualBox
+- VMware
+- Docker
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Programming
 
-## Deploy on Vercel
+- Python
+- SQL
+- Web Technologies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 🔥 Security Testing Scenarios
+
+The platform was tested through different cybersecurity scenarios:
+
+### 🔍 Network Reconnaissance
+
+Detection and analysis of network discovery activities.
+
+### 🚪 Port Scanning
+
+Monitoring suspicious scanning activities.
+
+### 🔐 Brute Force Attacks
+
+Simulation and analysis of authentication attack attempts.
+
+### 📡 Suspicious Traffic Generation
+
+Generation of abnormal traffic to evaluate detection capabilities.
+
+---
+
+# ⚙️ Features
+
+✅ Centralized security monitoring
+
+✅ Intrusion detection
+
+✅ Security event analysis
+
+✅ Alert management
+
+✅ Attack simulation environment
+
+✅ Log collection and analysis
+
+---
+
+# 📂 Project Structure
+
+```
+devsecops-app/
+
+├── README.md
+├── docs/
+├── screenshots/
+├── scripts/
+├── configuration/
+├── docker/
+└── src/
+```
+
+---
+
+# 🚀 Installation
+
+## Requirements
+
+- Linux environment
+- Docker
+- VirtualBox / VMware
+- Python environment
+
+## Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/boullahmgy/devsecops-app.git
+```
+
+Enter the project directory:
+
+```bash
+cd devsecops-app
+```
+
+Follow the installation instructions provided in the documentation.
+
+---
+
+# 📸 Screenshots
+
+Add project screenshots here:
+
+- Architecture diagram
+- Wazuh dashboard
+- Suricata alerts
+- Security monitoring results
+- Virtual environment
+
+---
+
+# 📈 Future Improvements
+
+- Integration of Machine Learning models for threat classification.
+- Automated incident response.
+- Advanced threat intelligence integration.
+- Cloud security monitoring.
+- CI/CD security automation.
+
+---
+
+# 👨‍💻 Author
+
+**Boullah Mogaya**
+
+Cybersecurity Engineer | SOC Analyst | DevSecOps
+
+📧 Email:
+boullahmogaya@gmail.com
+
+🔗 LinkedIn:
+linkedin.com/in/boullah-mogaya
+
+---
+
+⭐ If you find this project useful, feel free to star the repository.

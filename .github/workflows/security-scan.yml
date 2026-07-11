@@ -44,9 +44,9 @@ jobs:
         safety check
 
 
-        - name: Build Docker image
+    - name: Build Docker image
       run: |
-        docker build -t devsecops-app:latest -f docker/Dockerfile  .
+         docker build -t devsecops-app:latest -f docker/Dockerfile  .
 
 
     - name: Docker Security Scan with Trivy

@@ -42,3 +42,10 @@ jobs:
     - name: Dependency Vulnerability Scan
       run: |
         safety check
+
+
+    - name: Docker Security Scan with Trivy
+      uses: aquasecurity/trivy-action@master
+      with:
+        image-ref: 'devsecops-app:latest'
+        severity: 'HIGH,CRITICAL'
